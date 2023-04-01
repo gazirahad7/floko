@@ -143,3 +143,10 @@ header {
 .banner-2 img {
   width: 100%;
 }
+
+/*============= STYLE FOR EVENT SECTION   ==========*/
+
+.event h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
