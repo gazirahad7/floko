@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/globals.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Markup for Header Section -->
+    <header>
+      <nav class="container py-3">
+        <div class="d-f j-c-b a-i-c">
+          <div class="logo">
+            <a href="">
+              <img src="/images/logo.png" alt="LOGO" />
+            </a>
+          </div>
+          <div>
+            <ul class="d-f gap-2">
+              <li>
+                <div class="dropdown">
+                  <button
+                    type="button"
+                    onclick="toggleDropdown()"
+                    class="dropdown-btn"
+                  >
+                    Speacilites
+                    <i class="fa-solid fa-angle-down color-white"></i>
+                  </button>
+                  <div id="dropdown-content" class="dropdown-content pt-1">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                For Business <i class="fa-solid fa-angle-down color-white"></i>
+              </li>
+              <li>
+                For Individuals
+                <i class="fa-solid fa-angle-down color-white"></i>
+              </li>
+              <li>For Coach</li>
+            </ul>
+          </div>
+          <div class="d-f gap-2 a-i-c">
+            <div class="d-f gap-1">
+              <div><img src="/images/flug-usa.png" alt="USA" /></div>
+              <div>
+                <p>EN <i class="fa-solid fa-angle-down color-white"></i></p>
+              </div>
+            </div>
+            <div class="bg-gray-color btn">
+              <a href="#">Login /</a>
+              <a href="#">Sign In</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Hero Banner -->
+
+      <div class="hero-banner d-f j-c a-i-c position-r">
+        <div class="hero-banner-content">
+          <div>
+            <div class="banner-img">
+              <img src="/images/banner-1.png" alt="" />
+            </div>
+            <div class="banner-content">
+              <h1 class="t-c">
+                <span class="yellow-color">GROW</span> <br />
+                FASTER <br />
+                WITH A <span class="secondary-color">COACH</span>
+              </h1>
+
+              <p class="t-c my-1">
+                Work with a world-class coach to grow as a leader, find career
+                <br />
+                clarity, or accelerate your job search.
+              </p>
+
+              <div class="t-c my-2">
+                <div class="d-f j-c gap-2">
+                  <button type="button" class="btn bg-secondary-color">
+                    Find My Coach
+                  </button>
+                  <button type="button" class="btn">Learn More</button>
+                </div>
+                <div class="d-f j-c a-i-c gap-1 my-3">
+                  <img src="/images/stare.png" alt="" />
+                  <p>4.9 Average Session Rating</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Markup for ITEM  Section -->
+
+    <section class="banner-2 hero-banner">
+      <div class="d-f gap-1 py-3">
+        <div>
+          <img src="/images/products/p-1.png" alt="PRODUCT" />
+        </div>
+        <div>
+          <img src="/images/products/p-2.png" alt="PRODUCT" />
+        </div>
+
+        <div>
+          <img src="/images/products/p-4.png" alt="PRODUCT" />
+        </div>
+        <div>
+          <img src="/images/products/p-5.png" alt="PRODUCT" />
+        </div>
+
+        <div>
+          <img src="/images/products/p-3.png" alt="PRODUCT" />
+        </div>
+      </div>
+    </section>
+    <!-- Markup for EVENT  Section -->
+
+    <script src="/JS/main.js"></script>
+  </body>
+</html>
